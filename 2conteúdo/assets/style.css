@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+.input-group{
+    text-decoration: aliceblue;
+}
+.featured-image {
+    max-width: 200px;
+    border-radius: 10px;
+}
+.left-box {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.right-box {
+    padding: 20px;
+
+}
+.header-text {
+    max-width: 300px; 
+}
+.carousel-item img{
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    text-decoration: white;
+}
+
+.custom-svg {
+    align-items: center;
+    width: 400px;
+    height: auto; 
+    margin: 40px;
+}
+.content-paragraph {
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+.banner {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+}
+.fixed-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+.courses{
+    align-items: center;
+}
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    background-color: transparent;
+}
+.navbar-nav .nav-link {
+    font-size: 1.0rem; 
+    border: 2px solid rgb(0, 68, 255);
+    border-radius: 10px;
+    border-color: white; 
+    margin: 5px; 
+    padding: 5px 10px; 
+}
+.navbar-brand {
+    color: white;
+    font-size: 1.20rem;
+    border-radius: 10px; 
+    padding: 5px 10px; 
+}
+#btnVoltarAoTopo {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+.dropdown-menu.show {
+    max-height: 500px;
+    background-color: white;
+}
+.book-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.chapter-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.header {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.content {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+.page-number {
+    text-align: center;
+    font-size: 1em;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.book-page img{
+    border-radius: 10px;
+}
+.navigation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.chapter-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.header {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.content {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+.page-number {
+    text-align: center;
+    font-size: 1em;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.teacher {
+    width: 580px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.aulas{
+    background-color: wheat;
+}
+.mat img{
+    width: 580px;
+}
+.navbar-x{
+    display: flex;
+    padding: 30px;    
+}
+.navbar-toggler{
+    border-color: white;
+}
